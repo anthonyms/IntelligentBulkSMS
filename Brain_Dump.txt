@@ -1,0 +1,23 @@
+
+User logs in, creates a campaign. 
+Campaign has; recipients, message, Schedule, Rules
+User can monitor Campaign progress; messages sent, messages yet to send, messages delivered, undelivered messages.
+If Response table is configured, user can see responces. Response could be e.g Connected to school payments database. Response is how many students have paid.
+Messages could be dynamically created e.g Dear Anthony, xxxxxx xxx xx xxxxx xxx.
+
+
+DB Design
+---------
+Clients
+Campaigns
+Schedules
+Messages
+Template
+Users
+Admins
+
+Modules
+-------
+SMPP sender with DLR's
+Abstract Response reader. 
+API
