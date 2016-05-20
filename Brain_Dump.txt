@@ -3,6 +3,9 @@ User logs in, creates a campaign.
 Campaign has; recipients, message, Schedule, Rules
 User can monitor Campaign progress; messages sent, messages yet to send, messages delivered, undelivered messages.
 If Response table is configured, user can see responces. Response could be e.g Connected to school payments database. Response is how many students have paid.
+  Can you track how many responses your call to action has received
+  ?
+  ideally the whole purpose of a campaign is to track responses
 Messages could be dynamically created e.g Dear Anthony, xxxxxx xxx xx xxxxx xxx.
 
 
